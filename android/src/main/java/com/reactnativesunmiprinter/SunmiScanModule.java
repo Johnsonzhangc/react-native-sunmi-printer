@@ -63,10 +63,12 @@ public class SunmiScanModule extends ReactContextBaseJavaModule {
   };
 
   public SunmiScanModule(ReactApplicationContext context) {
+    /*
     super(context);
     reactContext = context;
     reactContext.addActivityEventListener(mActivityEventListener);
     registerReceiver();
+    */
   }
 
   @Override
